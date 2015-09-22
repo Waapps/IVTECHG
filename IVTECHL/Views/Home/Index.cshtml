@@ -3,23 +3,17 @@
 }
 @section featured {
     <section class="featured">
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1>@ViewBag.Title.</h1>
-                <h2>@ViewBag.Message</h2>
-            </hgroup>
-           
-        </div>
-
         <div class="banner text-center">
             <div class="container">
                 <div class="banner-info">
-                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <h1>Banner Text</h1>
                     <p>
                         Lorem ipsum dolor sit amet, facilisis egestas sodales non luctus,<br>
                         sem quas potenti malesuada vel phasellus.
                     </p>
-                    <a class="banner_btn" href="about.html">Read More</a>
+                    
+                
+                    @Html.ActionLink("Read More", "Index", null, new { @class="banner_btn" }) %>
                 </div>
             </div>
         </div>
@@ -37,25 +31,25 @@
             <div class="row text-center">
                 <div class="col-mg-3 col-xs-3 feature_grid1">
                     <i class="fa fa-cog fa-3x"></i>
-                    <h3 class="m_1"><a href="services.html">Legimus graecis</a></h3>
+                    <h3 class="m_1"><a href="services.html">Services 1</a></h3>
                     <p class="m_2">Lorem ipsum dolor sit amet, facilisis egestas sodales non luctus, sem quas potenti malesuada vel phasellus.</p>
                     <a href="services.html" class="feature_btn">More</a>
                 </div>
                 <div class="col-mg-3 col-xs-3 feature_grid1">
                     <i class="fa fa-comments-o fa-3x"></i>
-                    <h3 class="m_1"><a href="services.html">Mazim minimum</a></h3>
+                    <h3 class="m_1"><a href="services.html">Services 2</a></h3>
                     <p class="m_2">Lorem ipsum dolor sit amet, facilisis egestas sodales non luctus, sem quas potenti malesuada vel phasellus.</p>
                     <a href="services.html" class="feature_btn">More</a>
                 </div>
                 <div class="col-md-3 col-xs-3 feature_grid1">
                     <i class="fa fa-globe fa-3x"></i>
-                    <h3 class="m_1"><a href="services.html">Modus altera</a></h3>
+                    <h3 class="m_1"><a href="services.html">Operation 1</a></h3>
                     <p class="m_2">Lorem ipsum dolor sit amet, facilisis egestas sodales non luctus, sem quas potenti malesuada vel phasellus.</p>
                     <a href="services.html" class="feature_btn">More</a>
                 </div>
                 <div class="col-md-3 col-xs-3 feature_grid2">
                     <i class="fa fa-history fa-3x"></i>
-                    <h3 class="m_1"><a href="services.html">Melius eligendi</a></h3>
+                    <h3 class="m_1"><a href="services.html">Operation 2</a></h3>
                     <p class="m_2">Lorem ipsum dolor sit amet, facilisis egestas sodales non luctus, sem quas potenti malesuada vel phasellus.</p>
                     <a href="services.html" class="feature_btn">More</a>
                 </div>
@@ -69,9 +63,12 @@
                     <div class="block-heading-two">
                         <h2><span>About Our Company</span></h2>
                     </div>
-                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero.</p>
-                    <br>
-                    <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    
+                    IV Technologies is a privately traded company headquartered in United States of America with a client base spread around several industries and several countries across the globe.
+
+                    It is one of the fastest growing companies of the 21st century through aquisitions, joint ventures, market penetrations and creative technological innovations.
+
+                    Our mission is to become a leading provider of Technology solutions in every industry and every market it serves. Its growth strategy is predicated on 4 principles:
                     <a class="banner_btn" href="about.html">Read More</a>
                 </div>
                 <div class="col-md-4">
